@@ -1,0 +1,56 @@
+.jumbotron{
+    margin-top: 20px;
+    background: #a9a9a9;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    margin: 4px 4px;
+}
+
+body{
+    background: black;
+    
+}
+
+h2{
+    font-size: 60px;
+}
+
+a:hover{
+    border: solid aqua;
+}
+
+.buyehImage{
+    height: 5%;
+    width: 5%;
+    border-radius: 100%;
+}
+
+.buyehImage1{
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    float: right;
+}
+
+
+label{
+    color: aquamarine;
+}
+
+.contactInfo{
+    color: azure;
+}
+
+.messageForm{
+    color: beige;
+    float: right;
+}
+
+.card{
+    background-color: grey;
+}

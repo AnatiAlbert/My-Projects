@@ -1,0 +1,60 @@
+h1
+{
+    text-align: center;
+    background-color: #EFEA5A;
+}
+
+p
+{
+    background-color: #FE5E41;
+}
+
+ul
+{
+    background-color: #ABC123;
+    border: 10px groove;
+}
+
+.shada{
+    display: grid;
+    grid-template-columns: 10em 10em 10em;
+}
+
+.info
+{
+    background-color: #E6F6C2;
+    width: 50%;
+    margin: 0px auto;
+}
+
+#buttons
+{
+    margin: 100px 0 100px 0;
+    border: 10px dotted;
+    padding: 2em;
+    min-width: 120px;
+    max-width: 240px;
+
+}
+
+#buttons input{
+   
+    padding: 1em;
+}
+
+#buttons input:last-child
+{
+
+}
+
+image
+{
+    
+}
+
+img{
+    float: left;
+    width: 500px;
+    margin: 20px auto;
+    
+}

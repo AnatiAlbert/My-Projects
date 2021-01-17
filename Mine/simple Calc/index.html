@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calcus</title>
+    </head>
+
+    <body>
+        <h2>Anati's Calculator</h2>
+        <textarea name="input1" rows="3" cols="6"></textarea>
+        <textarea name="input2" rows="3" cols="6"></textarea>
+        <br>
+        <button class="add">Add(+)</button>
+        <button class="subtract">Subtract(-)</button>
+        <br>
+        <button class="multiply">Multiply(*)</button>
+        <button class="divide">Divide(/)</button>
+        <br>
+        <textarea name="output" rows="3" cols="6"></textarea>
+        <button>Clear</button>
+
+        <script>
+            const input1 = document.querySelector('textarea[name=input1]');
+            const input2 = document.querySelector('textarea[name=input2]');
+            const add = document.querySelector('.add');
+            const subtract = document.querySelector('.subtract');
+            const multiply= document.querySelector('.multiply');
+            const divide = document.querySelector('.divide');
+            const output = document.querySelector('textarea[name=output]');
+
+            add.addEventListener("click",addNumbers);
+            subtract.addEventListener("click",subtractNumbers);
+            multiply.addEventListener("click",multiplyNumbers);
+            divide.addEventListener("click",divideNumbers);
+
+
+            function addNumbers(){
+                let temp1 = input1.value;
+                let intValue1 = parseInt(input1.value);
+                let temp2 = input2.value;
+                let intValue2 = parseInt(input2.value);
+                let results = intValue1 + intValue2;
+                output.innerHTML = results;
+            }
+
+            function subtractNumbers(){
+                let temp1 = input1.value;
+                let intValue1 = parseInt(input1.value);
+                let temp2 = input2.value;
+                let intValue2 = parseInt(input2.value);
+                let results = intValue1 - intValue2;
+                output.innerHTML = results;
+            }
+
+            function multiplyNumbers(){
+                let temp1 = input1.value;
+                let intValue1 = parseInt(input1.value);
+                let temp2 = input2.value;
+                let intValue2 = parseInt(input2.value);
+                let results = intValue1 * intValue2;
+                output.innerHTML = results;
+            }
+
+            function divideNumbers(){
+                let temp1 = input1.value;
+                let intValue1 = parseInt(input1.value);
+                let temp2 = input2.value;
+                let intValue2 = parseInt(input2.value);
+                let results = intValue1 / intValue2;
+                output.innerHTML = results;
+            }
+
+        </script>
+
+    </body>
+
+</html>

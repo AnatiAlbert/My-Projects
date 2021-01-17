@@ -1,0 +1,71 @@
+#todoList ul {
+    margin:0; padding:0; list-style-type:none;
+}
+
+#todoList ul li{
+    margin: 3px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #CCCCCC;
+    border: 1px solid #3333;
+}
+
+#todoList ul li {
+    height:30px;
+}
+
+#todoList ul li span.title{
+    float:left;  
+    display:inline-block;
+}
+
+#todoList ul li span.action {
+    float:right;
+    display:inline-block;
+}
+
+#todoList ul li.done {
+    background-color: #00CC00;
+}
+
+#todoList ul li a {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 8px; 
+    background-color: #333333; 
+    padding: 5px 8px; 
+    color: #fff;
+}
+
+#todoList ul li a:hover {
+    background-color: #eee; 
+    color: #000;
+}
+
+.container {
+    padding:10; 
+    width:600px; 
+    margin:0 auto; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#txtTodo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    padding: 5px 8px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    padding: 5px 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+}

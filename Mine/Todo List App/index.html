@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>JS Expert</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <!-- <ul>
+            <li><span>Todo item name</span><span>Done|Pending or Remove</span></li>
+        </ul> -->
+
+        <div class="container">
+            <h2 class="titlehead">Anati To Do List</h2>
+            <form method="POST" action="#" onsubmit="return addTodo(this)">
+                <input type="text" id="txtTodo" name="txtTodo" size="50" maxlength="50" placeholder="Add new todo item" />
+                <button type="submit">Add</button>
+            </form>
+            
+            <div id="todoList"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>

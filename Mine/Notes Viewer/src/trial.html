@@ -1,0 +1,154 @@
+<!DOCTYPE <!DOCTYPE html>
+ <html> 
+  <head>
+    <meta charset="utf-8">
+    <title>Product Page</title>
+  </head>
+  <body>
+    <style>
+      #nav-bar {
+        position: fixed;
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#nav-bar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  text-align: center;
+}
+
+#header-img {
+  width: 15%;
+  height: auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.fruitImage, .fish, .phoenix {
+  float: left;
+  width: 10%;
+  height: auto;
+}
+
+.fruitMessage, .fishMessage, .phoenixMessage {
+  float: right;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#products {
+  max-width: 50%;
+  margin: 0 auto 15px auto;
+  padding: 0 15px 0 15px;
+  text-align: left; 
+  background-color: lemonchiffon;
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  body {background-color: lightblue;}
+}
+
+.locate {
+  display: inline-block;
+  border: solid 1px red;
+  width: 500px;
+}
+
+.contact {
+  display: inline-block;
+  border: solid 1px green;
+  width: 500px;
+}
+    </style>
+    
+    <header id="header">
+      <nav id="nav-bar">
+        <ul class="topnav">
+          <li><img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRWV-WbjADen5Edc_eyD7i-mfrLf4-ovdIOA&usqp=CAU" alt="Lion head image"></li>
+          <li><a class="nav-link" href="#products">Products</a></li>
+          <li><a class="nav-link" href="#video">View services</a></li>
+          <li><a class="nav-link" href="#location">Location</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br><br><br><br>
+
+    <section id="products">
+      <div>
+<img class="fruitImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnU755wTXjAnv_NqbbJk-VE1B627Xqqbp_1A&usqp=CAU" alt="fruit image">
+      <p class="fruitMessage"><h2>Fruits Products</h2>
+        All the necessary fruits and vegetables can be discovered from this section. Good fruits products for the entire household.
+      </p><br>
+      </div>
+
+    <div>
+<img class="fish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpaQA3OwZaC_GgNeOvEFFnKUNNoAYHoN4hUA&usqp=CAU" alt="sea food">
+      <p class="fishMessage"><h2>Sea Food Products</h2>
+        Enriched with the best of omega 3 and all the vital and essential nutrients. Excellent delivery at your doorsteps. With enriched services from our finest chef.
+      </p>
+      </div><br>
+
+      <div>
+      <img class="phoenix" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5TeFYDQzFuw4QwjvtYqI-AkZDserlqT884A&usqp=CAU" alt="Phoenix">
+      <p class="phoenixMesssage"><h2>Phoenix Services</h2>
+        Phoenix serves you exciting and unending products beyond your widest imagination. Phoenix is superficial, fantabulous and exaratingly amazing. 
+      </p>
+      </div>
+    </section><br><br>
+    
+    <section>
+      <div>
+        <iframe id="video" width="320" height="240" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+          </iframe>
+  
+      </div>
+    </section><br><br>
+
+    <div>
+    <form action="" id="form">
+      <label for="email">Email: </label><br>
+      <input type="email" id="email" placeholder="Enter your email address" size="50"><br><br>
+      <a href="https://www.freecodecamp.com/email-submit">
+        <input type="submit" id="submit">
+      </a>
+    </form>
+    </div><br>
+
+    <section id="location">
+      <h2>Location and Contact Services</h2>
+     <p class="locate"> Locate us at every regional capital across the nation. In some selected shops over the country. At Accra, behind Makola market. At Kumasi behind Kejetia market. At Takoradi Anaji, behind the police station.</p>
+
+  <p class="contact">Contact us through the following means: Telephone - +233500104098 or +233543610688. Our email services include - shaidajhs@gmail.com and visit our website www.anatiproduce.com</p>
+    </section>
+
+  </body>
+</html>
